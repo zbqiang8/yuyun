@@ -41,7 +41,7 @@
           <view class="content-date">
             <text>{{item.date}}</text>
             <text class="iconfont icon-attention_light"> {{item.pageviews}}</text>
-            <text class="iconfont icon-comment_light"> {{item.total_comments}}</text>
+            <text class="iconfont icon-comment_light"> {{item.comment_total}}</text>
             <text class="iconfont icon-appreciate_light"> {{item.like_count}}</text>
           </view>
           <image src="{{item.post_thumbnail_image}}" class="cover"></image>
